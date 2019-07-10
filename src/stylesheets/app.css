@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Pokemon GB";
+  font-style: normal;
+  src: url("../fonts/Pokemon-GB.ttf"); }
 #button-flexbox, #search-flexbox, .text-button, #below-info-box {
   display: flex;
   justify-content: space-between; }
