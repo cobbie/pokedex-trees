@@ -2,10 +2,8 @@ import React from 'react';
 import Header from './components/Header/Header';
 import InfoSearch from './components/InfoSearch/InfoSearch';
 import Button from './components/Button/Button';
-import Draw from './components/Draw';
 import * as d3 from "d3";
 import "./css/RadialTree.css";
-// import RadialTree from './react-d3/src/components/RadialTree';
 import './stylesheets/app.css';
 
 class App extends React.Component {
@@ -25,7 +23,7 @@ class App extends React.Component {
   drawGenerate = genType => {
     d3.select("svg").remove();
     const gen = this.state.gen === '1' ? this.gen1 : this.gen123;
-    d3.json(gen).then(function(treeData) {
+    d3.json(gen).then(treeData => {
       var data = treeData[0];
 
       // TREE DIAGRAM
@@ -112,8 +110,7 @@ class App extends React.Component {
       };
 
       var j = 0;
-      // console.log(root.children.length)
-      var get_deep = function(root) {
+      var get_deep = root => {
         var fringe = [root];
         for (let i = 0; i < root.children.length; i++) {
           fringe.push(root.children[i]);
@@ -123,21 +120,22 @@ class App extends React.Component {
               fringe.push(root.children[i].children[j].children[k]);
               for (let l = 0;l < root.children[i].children[j].children[k].children.length;l++) {
                 fringe.push(root.children[i].children[j].children[k].children[l]);
-                for(let m = 0;m <root.children[i].children[j].children[k].children[l].children.length;m++) {
-                  fringe.push(
-										root.children[i].children[j].children[k]
+                if(this.state.gen==="123"){
+
+                  for(let m = 0;m <root.children[i].children[j].children[k].children[l].children.length;m++) {
+                    fringe.push(
+                      root.children[i].children[j].children[k]
 											.children[l].children[m]
-									);
-                }
+                      );
+                    }
+                  }
               }
             }
           }
         }
-        // console.log(fringe)
         return fringe;
       };
       // var d = get_deep(root)
-      // console.log(d.slice(1))
 
       var dfs_loop = function(root) {
         var link = g
