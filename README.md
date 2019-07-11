@@ -28,6 +28,7 @@ For Tree Generation, the user may choose a Pokemon generation (1 or 1,2,3) and t
 
 For Tree Traversal, the user may type in the name of a pokemon, and upon selecting/clicking the algorithm choice, the tree of the pokedex will be traversed by the agent. The visualization of the traversal displays visited nodes in red, and the agent will stop at a matched node, highlighting it in blue. If no such pokemon exists, the whole tree will be visited (red).
 
+As the focus of this project was to visualize the algorithms in action, the front-end has not yet been optimized: responsive design has not yet been implemented, so this project would be best viewed in a full-screen browser.
 # Online Version
 This project is currently deployed online using Netlify. 
 
