@@ -2,6 +2,10 @@
 * Miggy Pinaroc
 * Cobbie Quintos
 
+
+# Online Version
+[This project is currently deployed online using Netlify. The whole application can be used here without having to install](https://poketree.netlify.com/). 
+
 # Installation
 To install the project locally, a working version of npm must be installed on the machine. npm can be installed with different operating systems [here](https://www.npmjs.com/get-npm).
 
@@ -49,10 +53,6 @@ Gyarados to Butterfree
 Chimchar to Machamp
 Psyduck to Groudon
 Kyogre to Bayleef
-
-
-# Online Version
-[This project is currently deployed online using Netlify](https://poketree.netlify.com/). 
 
 # Credit
 
