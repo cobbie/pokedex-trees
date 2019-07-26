@@ -19,8 +19,9 @@ yarn install
 yarn start
 ```
 
-#Usage
-##Project 1
+# Usage
+
+## Project 1
 The user may pick between two operations and two algorithms: Tree Generation and Tree Traversal using either DFS or BFS.
 
 For Tree Generation, the user may choose a Pokemon generation (1 or 1,2,3) and the appropriate tree will be created using the selected algorithm.
@@ -29,7 +30,7 @@ For Tree Traversal, the user may type in the name of a pokemon, and upon selecti
 
 As the focus of this project was to visualize the algorithms in action, the front-end has not yet been optimized: responsive design has not yet been implemented, so this project would be best viewed in a full-screen browser.
 
-##Project 2
+## Project 2
 Upon clicking the "Force Directed Graph" button, the user will be able to search for a start and end pokemon node which will be implemented using Dijkstra's algorithm as a form of informed search. The searched nodes will be displayed in gray, and if successful, the path will be displayed in blue. 
 
 # Why Network Graph over a Tree
@@ -58,3 +59,4 @@ Kyogre to Bayleef
 The D3 code used to create the radial tree was written by **Herman Sontrop**. The source code for this could be found [here](https://bl.ocks.org/FrissAnalytics/ffbd3cb71848616957cd4c0f41738aec?fbclid=IwAR2D-Wbmua4TPwmDAtspmYW1z5z5j81tDJBJOPThczmbqJnouLWUjmmfVg8).
 
 We also built upon **Herman Sontrop**'s [idea](https://bl.ocks.org/mph006/7e7d7f629de75ada9af5?fbclid=IwAR1H87O5JykosRT_a3EyajJc41g2kKoVqZgkeJ6Z4wEi62sGiqMt2APNnBM) for using buttons to display the traversals.
+
