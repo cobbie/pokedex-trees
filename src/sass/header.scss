@@ -35,7 +35,7 @@
 
 #tree-item-flex-container{
     @extend %flex-container;
-    width: 530px;
+    width: 830px;
     font-size: 15px;
     line-height: 20px;
 }
@@ -61,6 +61,7 @@
     border: 5px solid #12C100;
     border-radius: 30px;
     border-width: 4px;
+    // width: 1200px;
 }
 
 

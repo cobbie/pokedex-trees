@@ -18,6 +18,7 @@ const Header = props => {
                 <div id="tree-item-flex-container">
                     <div className="tree-navbar" onClick={props.onClick1}>Tree Generation</div>
                     <div className="tree-navbar" onClick={props.onClick2}>Tree Traversal</div>
+                    <div className="tree-navbar" onClick={props.onClick3}>Force Directed Graph</div>
                 </div>
             </div>
         </div>

@@ -12,7 +12,7 @@ const Button = props => {
         )
     }
     return(
-        <div id="main-button" onClick={props.onClick}>Create {props.treeType} Tree</div>
+        <div id="main-button" onClick={props.onClick}>{props.buttonText}</div>
     )
 }
 

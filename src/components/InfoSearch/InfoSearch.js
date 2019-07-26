@@ -34,6 +34,16 @@ const InfoSearch = props => {
                 </div>
             </div>
         )
+    } else if(props.treeOp==="informed"){
+        return(
+            <div id="main-container-genButtons">
+                <div id="column-container">
+                <div id="choose-gen">SEARCH START/END NODES</div>
+                <div id='visited-search'>{props.resultsType1}: {props.results1}</div>
+                <div id='visited-search'>{props.resultsType2}: {props.results2}</div>
+                </div>
+            </div>
+        )
     }
 }
 
