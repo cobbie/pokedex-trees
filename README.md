@@ -60,3 +60,6 @@ The D3 code used to create the radial tree was written by **Herman Sontrop**. Th
 
 We also built upon **Herman Sontrop**'s [idea](https://bl.ocks.org/mph006/7e7d7f629de75ada9af5?fbclid=IwAR1H87O5JykosRT_a3EyajJc41g2kKoVqZgkeJ6Z4wEi62sGiqMt2APNnBM) for using buttons to display the traversals.
 
+The D3 code used for the Force Directed Graph was written by [Bastiaan ten Klooster.](https://bl.ocks.org/BTKY/6c282b65246f8f46bb55aadc322db709?fbclid=IwAR3z1HMirPxPrwNsGn7AoRZcUs86vD14tWKjGo_SYK7vA-ItbUZB3OJbNog)
+
+The Pokemon node graph data was taken from the links [here](https://www.reddit.com/r/dataisbeautiful/comments/1vt1r3/oc_pokemon_node_graph_data_inside_xpost_from/).
